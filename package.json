@@ -1,0 +1,63 @@
+{
+    "name": "hover-be-gone",
+    "displayName": "Hover Be Gone",
+    "description": "Close all hover tooltips like completion and parameter hints in one `Escape` keypress.",
+    "version": "0.0.1",
+    "publisher": "OnlyLys",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/OnlyLys/Hover-Be-Gone.git"
+    },
+    "homepage": "https://github.com/OnlyLys/Hover-Be-Gone",
+    "bugs": {
+        "url": "https://github.com/OnlyLys/Hover-Be-Gone/issues"
+    },
+    "categories": [
+        "Other"
+    ],
+    "keywords": [
+        "close",
+        "tooltips",
+        "hover",
+        "hints",
+        "parameter",
+        "completion",
+        "escape"
+    ],
+    "activationEvents": [
+        "onCommand:hover-be-gone.execute"
+    ],
+    "main": "./out/extension",
+    "contributes": {
+        "keybindings": [
+            {
+                "key": "escape",
+                "command": "hover-be-gone.execute",
+                "when": "parameterHintsVisible"
+            },
+            {
+                "key": "escape",
+                "command": "hover-be-gone.execute",
+                "when": "suggestWidgetVisible"
+            }
+        ]
+    },
+    "engines": {
+        "vscode": "^1.24.0"
+    },
+    "scripts": {
+        "vscode:prepublish": "npm run compile",
+        "compile": "tsc -p ./",
+        "watch": "tsc -watch -p ./",
+        "postinstall": "node ./node_modules/vscode/bin/install",
+        "test": "npm run compile && node ./node_modules/vscode/bin/test"
+    },
+    "devDependencies": {
+        "typescript": "^2.6.1",
+        "vscode": "^1.1.6",
+        "tslint": "^5.8.0",
+        "@types/node": "^7.0.43",
+        "@types/mocha": "^2.2.42"
+    }
+}
