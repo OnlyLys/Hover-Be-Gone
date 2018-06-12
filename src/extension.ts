@@ -4,7 +4,7 @@ import { ExtensionContext, commands } from 'vscode';
 
 export function activate(context: ExtensionContext) {
 
-    let command = commands.registerCommand('hover-be-gone.execute', () => {
+    let command = commands.registerCommand('hover-be-gone.shoo', () => {
         commands.executeCommand('hideSuggestWidget');
         commands.executeCommand('closeParameterHints');
     });

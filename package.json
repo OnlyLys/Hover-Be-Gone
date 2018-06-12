@@ -26,19 +26,19 @@
         "escape"
     ],
     "activationEvents": [
-        "onCommand:hover-be-gone.execute"
+        "onCommand:hover-be-gone.shoo"
     ],
     "main": "./out/extension",
     "contributes": {
         "keybindings": [
             {
                 "key": "escape",
-                "command": "hover-be-gone.execute",
+                "command": "hover-be-gone.shoo",
                 "when": "parameterHintsVisible && editorTextFocus"
             },
             {
                 "key": "escape",
-                "command": "hover-be-gone.execute",
+                "command": "hover-be-gone.shoo",
                 "when": "suggestWidgetVisible && textInputFocus"
             }
         ]
