@@ -2,7 +2,7 @@
     "name": "hover-be-gone",
     "displayName": "Hover Be Gone",
     "description": "Close all hover tooltips like completion and parameter hints in one `Escape` keypress.",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "publisher": "OnlyLys",
     "license": "MIT",
     "repository": {
@@ -34,12 +34,12 @@
             {
                 "key": "escape",
                 "command": "hover-be-gone.execute",
-                "when": "parameterHintsVisible"
+                "when": "parameterHintsVisible && editorTextFocus"
             },
             {
                 "key": "escape",
                 "command": "hover-be-gone.execute",
-                "when": "suggestWidgetVisible"
+                "when": "suggestWidgetVisible && textInputFocus"
             }
         ]
     },
