@@ -4,7 +4,7 @@ import { ExtensionContext, commands } from 'vscode';
 
 export function activate(context: ExtensionContext) {
 
-    let command = commands.registerCommand('hover-be-gone.escape', () => {
+    let command = commands.registerCommand('hover-be-gone.closeHoverTooltips', () => {
         commands.executeCommand('hideSuggestWidget');
         commands.executeCommand('closeParameterHints');
     });
@@ -12,6 +12,5 @@ export function activate(context: ExtensionContext) {
     context.subscriptions.push(command);
 }
 
-// this method is called when your extension is deactivated
 export function deactivate() {
 }

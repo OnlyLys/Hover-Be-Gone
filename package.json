@@ -26,19 +26,26 @@
         "escape"
     ],
     "activationEvents": [
-        "onCommand:hover-be-gone.escape"
+        "onCommand:hover-be-gone.closeHoverTooltips"
     ],
     "main": "./out/extension",
     "contributes": {
+        "commands": [
+            {
+                "command": "hover-be-gone.closeHoverTooltips",
+                "category": "Hover Be Gone",
+                "title": "Close Hover Tooltips"
+            }
+        ],
         "keybindings": [
             {
                 "key": "escape",
-                "command": "hover-be-gone.escape",
+                "command": "hover-be-gone.closeHoverTooltips",
                 "when": "parameterHintsVisible && editorTextFocus"
             },
             {
                 "key": "escape",
-                "command": "hover-be-gone.escape",
+                "command": "hover-be-gone.closeHoverTooltips",
                 "when": "suggestWidgetVisible && textInputFocus"
             }
         ]
