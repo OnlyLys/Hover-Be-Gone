@@ -2,7 +2,7 @@
     "name": "hover-be-gone",
     "displayName": "Hover Be Gone",
     "description": "Close all hover tooltips like completion and parameter hints in one `Escape` keypress.",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "publisher": "OnlyLys",
     "license": "MIT",
     "repository": {
