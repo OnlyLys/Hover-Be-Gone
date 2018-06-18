@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## 0.2.3
+- Change package manifest keywords.
+
 ## 0.2.2
 - Update license file to have `.txt` extension.
 - Improve formatting of changelog.
@@ -12,4 +15,4 @@
 - Refine when contexts so that tooltips are only closed when the focus is in the editor.
 
 ## 0.0.1
-- Initial release
+- Initial release.

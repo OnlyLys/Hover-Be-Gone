@@ -20,7 +20,8 @@
         "Close Tooltips",
         "Close Hover",
         "Close Hints",
-        "Escape"
+        "Escape Tooltips",
+        "Close Suggestions"
     ],
     "activationEvents": [
         "onCommand:hover-be-gone.closeHoverTooltips"
