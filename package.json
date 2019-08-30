@@ -39,12 +39,7 @@
             {
                 "key": "escape",
                 "command": "hover-be-gone.closeHoverTooltips",
-                "when": "parameterHintsVisible && editorTextFocus"
-            },
-            {
-                "key": "escape",
-                "command": "hover-be-gone.closeHoverTooltips",
-                "when": "suggestWidgetVisible && textInputFocus"
+                "when": "parameterHintsVisible && editorTextFocus || suggestWidgetVisible && editorTextFocus"
             }
         ]
     },
