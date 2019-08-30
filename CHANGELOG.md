@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 0.3.0
+- Update keybinding to use the new 'or' clause.
+- Update dependencies to fix vulnerabilities.
+
 ## 0.2.3
 - Change package manifest keywords.
 
