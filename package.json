@@ -20,7 +20,6 @@
         "Close Tooltips",
         "Close Hover",
         "Close Hints",
-        "Escape Tooltips",
         "Close Suggestions"
     ],
     "activationEvents": [
