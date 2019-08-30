@@ -1,5 +1,3 @@
-'use strict';
-
 import { ExtensionContext, commands } from 'vscode';
 
 export function activate(context: ExtensionContext) {
@@ -13,4 +11,5 @@ export function activate(context: ExtensionContext) {
 }
 
 export function deactivate() {
+    // Intentionally empty
 }
