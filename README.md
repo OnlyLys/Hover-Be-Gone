@@ -1,5 +1,8 @@
 # Hover Be Gone
 
-This extension seeks to solve a source of annoyance in VS Code where the hover tooltips close one by one instead of closing all at once when `Escape` is pressed.
+This extension seeks to solve a source of annoyance in vscode where the 
+autosuggest and parameter-hints tooltips close one-by-one instead of all being 
+closed at once when `Esc` is pressed.
 
-With this extension, the suggestion tooltips all close in one `Escape` keypress.
+With this extension, those suggestion tooltips should all close in one `Esc` 
+keypress.
