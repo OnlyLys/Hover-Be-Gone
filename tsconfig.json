@@ -13,6 +13,7 @@
         "noImplicitReturns": true, 
         "noFallthroughCasesInSwitch": true, 
         "noUnusedParameters": true,  
+        "isolatedModules": true     // Enabled because esbuild requires it.
     },
     "exclude": [
         "node_modules",
