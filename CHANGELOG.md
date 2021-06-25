@@ -2,7 +2,7 @@
 
 ## 0.3.0
 - Update keybinding to use the new 'or' clause.
-- Update dependencies to fix vulnerabilities.
+- Update dev dependencies.
 
 ## 0.2.3
 - Change package manifest keywords.
