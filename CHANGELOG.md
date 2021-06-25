@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 0.4.0
+- Bundle and minify output code to reduce extension's footprint.
+- Update dev dependencies.
+
 ## 0.3.0
 - Update keybinding to use the new 'or' clause.
 - Update dev dependencies.
